@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardStackView">
+        <attr name="card_stack_card_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="card_stack_child_layout_id" format="reference"/>
+        <attr name="card_stack_enable_loop" format="boolean"/>
+        <attr name="card_stack_swipe_animation_duration" format="integer"/>
+        <attr name="card_stack_swipeable_method" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="card_stack_preview_layout" format="reference"/>
+        <attr name="card_stack_stack_from" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="card_stack_swipe_threshold" format="float"/>
+    </declare-styleable>
+</resources>

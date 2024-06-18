@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp">
+
+        <!-- RecyclerView and other content -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/khopoli_list" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="103dp"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-18dp"
+            android:layout_marginTop="-11dp"
+            android:background="#00000000"
+            android:contentDescription="backbutton"
+            android:paddingTop="12dp"
+            app:srcCompat="@drawable/back" />
+
+        <!-- Back Button -->
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

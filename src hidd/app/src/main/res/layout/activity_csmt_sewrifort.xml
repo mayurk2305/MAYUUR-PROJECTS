@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/gagangiriview"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-3dp"
+        app:shapeAppearanceOverlay="@style/ImageViewShape"
+        app:srcCompat="@drawable/sewi_fort" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="164dp"
+        android:text="SEWRIFORT"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ambernathloc"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/thaneloc" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="227dp"
+        android:background="@android:color/white"
+        android:src="@drawable/share1" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="back"
+        app:srcCompat="@drawable/back2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="190dp"
+        android:text="@string/sewri_fort"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="594dp"
+        android:text="NEARBY CAFE"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="10dp">
+
+
+        <!-- Cafe 1 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp">
+
+            <ImageView
+                android:id="@+id/cafe_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/cafe11" />
+
+            <TextView
+                android:id="@+id/cafe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cafe_image1"
+                android:layout_centerHorizontal="true"
+                android:text="Cafe lucky"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <!-- Cafe 2 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp">
+
+            <ImageView
+                android:id="@+id/cafe_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/cafe12" />
+
+            <TextView
+                android:id="@+id/cafe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cafe_image2"
+                android:layout_marginTop="-3dp"
+                android:text="Belstone"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

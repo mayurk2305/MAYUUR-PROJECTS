@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">HIDDEN GEMS</string>
+    <string name="card_stack_description">Card stack view</string>
+
+    <!-- Khada Parsi -->
+    <string name="Khada_parsi">
+        1. <b>Basic Info:</b>\n
+•Location: Byculla Flyover Junction, Mumbai, India\n
+•
+        3. <b>Ways to Travel from CST Station to the Khada Parsi:</b>\n
+By taxi: 20-30 min\n
+By autorickshaw: 30-45 min\n
+By bus: 45-60 min\n
+Take BEST bus no. 22 from CST to Byculla. Walk 5 min to the statue.\n
+        <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Wadi Bunder -->
+    <string name="Wadi_bunder">
+        1. <b>Basic info:</b>\n
+•Oldest railway yard in Mumbai, established in 1882\n
+        2. <b>Ways to Travel from CST Station to Wadi Bunder</b>\n
+By taxi/auto: 15-20 min\n
+By bus: 30-40 min\n
+By train: From CST to Sewri, short walk to Wadi Bunder\n
+        <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Khotachiwadi -->
+    <string name="Kotachi_wadi">
+        1. <b>Basic information:</b>\n
+•Heritage village in Girgaon, Mumbai\n
+•Cluster of 270 Portuguese-style houses\n
+•Popular tourist destination with art galleries, cafes, and restaurants\n
+        3. <b>Ways to travel from CSMT to Khotachiwadi:</b>\n
+By train: CSMT to Charni Road, then taxi/auto\n
+By bus: CSMT to Khotachiwadi bus stop\n
+         <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Apti Nadi -->
+
+
+    <!-- Sewri Fort -->
+    <string name="sewri_fort">
+        1. <b>Basic info:</b>\n
+•Built in 1680 as a watchtower\n
+•Popular for birdwatching and picnics\n
+
+        3. <b>Way to travel from CSMT station:</b>\n
+By train to Sewri, then taxi/auto\n
+
+         <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Masunda Lake -->
+    <string name="Mansuda_lake">
+        1. <b>Information:</b>\n
+Location: Thane, Maharashtra\n
+Activities: Boating, fishing, picnicking\n
+Food: Many nearby restaurants\n
+
+        4. <b>Ways to Travel from Thane Station To Masunda Lake:</b>\n
+By taxi/auto/bus\n
+Open from 6:00 AM to 6:00 PM\n
+Boat prices: INR 25-50\n
+
+    <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Kopineshwar Temple -->
+    <string name="kopineshwar_Temple">
+        1. <b>Basic Information:</b>\n
+•Hindu temple dedicated to Lord Shiva\n
+•One of the largest Shiva Lingas in Maharashtra\n
+
+        3. <b>Things to do at Kopineshwar Temple:</b>\n
+Visit the Shiva Linga\n
+See other Hindu deities\n
+
+        4. <b>How to reach Kopineshwar Temple:</b>\n
+By road/public transportation\n
+
+         <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Mamacha Gaon -->
+    <string name="mamaca_gaon">
+        Mamacha Gaon is a resort and agrotourism destination located in Gundale village,\n
+        1. <b>Activities and attractions:</b>\n
+Swimming pool, rain dance, bullock cart ride, indoor games, trekking, agrotourism activities\n
+        2. <b>Ways to Travel From Thane Station To Mamacha Gaon:</b>\n
+By car/taxi: About 2.5 hours\n
+        <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Apti Nadi -->
+    <string name="apti_nadi">
+        1. <b>Information:</b>\n
+Location: Ambernath, Maharashtra\n
+Activities: Enjoy playing in flowing water, photo shoot\n
+
+        3. <b>Ways to Travel :</b>\n
+By own vehicle, autorickshaw, or bus\n
+
+          <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+    <!-- Gagangiri Math -->
+    <string name="gagangiri_math">
+        1. <b>Information:</b>\n
+Location: Khopoli, Maharashtra\n
+Attractions: Ashram for meditation, cave, waterfalls\n
+
+        3. <b>Ways to Travel:</b>\n
+By own vehicle or autorickshaw\n
+
+          <b>***NOTE: PLEASE KEEP THE PLACE CLEAN***</b>
+    </string>
+
+</resources>
