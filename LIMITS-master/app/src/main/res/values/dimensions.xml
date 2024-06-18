@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <!-- Default dimensions for all screen sizes -->
+        <dimen name="item_padding">16dp</dimen>
+        <dimen name="image_width">120dp</dimen>
+        <dimen name="image_height">120dp</dimen>
+    </resources>
+

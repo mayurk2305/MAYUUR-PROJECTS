@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="601dp"
+        android:layout_height="1311dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-68dp"
+        android:layout_marginTop="-190dp"
+        android:layout_marginEnd="-73dp"
+        android:layout_marginBottom="-196dp"
+        android:src="@drawable/whatsapp_image_2023_12_15_at_22_50_49_ce573734" />
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
+        android:background="#DCAA06"
+        android:text="+ WALLET"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dimensions for extra-large screens -->
+    <dimen name="item_padding" tools:ignore="MissingDefaultResource">32dp</dimen>
+    <dimen name="image_width" tools:ignore="MissingDefaultResource">200dp</dimen>
+    <dimen name="image_height" tools:ignore="MissingDefaultResource">200dp</dimen>
+</resources>
