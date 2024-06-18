@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/recive"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="21dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Your answer is"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/translate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/enter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="221dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="101dp"
+        android:background="#AA0000"
+        android:text="TRANSLATE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/recive"
+        app:layout_constraintStart_toStartOf="@+id/enter"
+        app:layout_constraintTop_toBottomOf="@+id/enter"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/enter"
+        android:layout_width="163dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="enter here"
+        android:inputType="textMultiLine|textNoSuggestions"
+    android:textAlignment="textStart"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toStartOf="@+id/recive"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/finalresult"
+        android:layout_width="313dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Your Answer in Devnagri"
+        android:inputType="textMultiLine|textNoSuggestions"
+    android:textAlignment="textStart"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="@+id/translate"
+    app:layout_constraintHorizontal_bias="0.482"
+    app:layout_constraintStart_toStartOf="@+id/translate"
+    app:layout_constraintTop_toBottomOf="@+id/translate"
+    tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/devnagri"
+        android:layout_width="202dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="18dp"
+        android:background="#AA0000"
+        android:text="DEVNAGRI"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/clear"
+        app:layout_constraintStart_toStartOf="@+id/finalresult"
+        app:layout_constraintTop_toBottomOf="@+id/finalresult"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+    <ImageButton
+        android:id="@+id/copy2"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:background="#5A5A5A"
+        android:contentDescription="Copy Button"
+        android:outlineSpotShadowColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/recive"
+        app:layout_constraintEnd_toEndOf="@+id/recive"
+        app:srcCompat="@drawable/copyicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/copy3"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:background="#5A5A5A"
+        android:contentDescription="Copy Button"
+        android:outlineSpotShadowColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/finalresult"
+        app:layout_constraintEnd_toEndOf="@+id/finalresult"
+        app:srcCompat="@drawable/copyicon"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="139dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="#0276AA"
+        android:text="CLEAR"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="@+id/finalresult"
+        app:layout_constraintStart_toEndOf="@+id/devnagri"
+        app:layout_constraintTop_toBottomOf="@+id/finalresult"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
