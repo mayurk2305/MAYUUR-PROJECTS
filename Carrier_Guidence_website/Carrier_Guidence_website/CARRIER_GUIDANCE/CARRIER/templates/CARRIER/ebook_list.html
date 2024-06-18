@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ebook List</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'CARRIER/ebook_list.css' %}">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+             <li><a href="{% url 'welcome_dashboard' %}">Home</a></li>
+                <li><a href="{% url 'ebook_list' %}">Ebooks</a></li>
+                <li><a href="{% url 'college_list' %}">College List</a></li>
+                <li><a href="{% url 'aptitude_test' %}">Aptitude Test</a></li>
+                <li><a href="{% url 'login' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table class="ebook-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ebook in ebooks %}
+                    <tr>
+                        <td>{{ ebook.title }}</td>
+                        <td><a href="{{ ebook.file.url }}" target="_blank">Download</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Dashboard</title>
+     {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'CARRIER/welcome_dashboard.css' %}">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="{% url 'welcome_dashboard' %}">Home</a></li>
+                <li><a href="{% url 'ebook_list' %}">Ebooks</a></li>
+                <li><a href="{% url 'college_list' %}">College List</a></li>
+                <li><a href="{% url 'aptitude_test' %}">Aptitude Test</a></li>
+                <li><a href="{% url 'login' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="career-info">
+            <h2>Career Guidance Information</h2>
+            <p>After completing your education, there are various career paths you can choose based on your interests and strengths. Here are some options:</p>
+            <div class="career-paths">
+                <div class="career-path">
+                    <h3>Diploma Courses</h3>
+                    <p>Explore diploma courses in fields like engineering, pharmacy, hotel management, etc.</p>
+                </div>
+                <div class="career-path">
+                    <h3>ITI (Industrial Training Institutes)</h3>
+                    <p>Opt for vocational training programs in various trades like electrician, fitter, mechanic, etc.</p>
+                </div>
+                <div class="career-path">
+                    <h3>Arts and Humanities</h3>
+                    <p>Pursue courses in humanities, commerce, arts, etc., opening up opportunities in fields like journalism, literature, social work, etc.</p>
+                </div>
+                <div class="career-path">
+                    <h3>Commerce Stream</h3>
+                    <p>Choose courses like B.Com, CA, CS, CMA, etc., for a career in commerce and business-related fields.</p>
+                </div>
+                <div class="career-path">
+                    <h3>Science Stream</h3>
+                    <p>Opt for courses like PCB, PCM, PCMB, etc., for a career in science and mathematics-related fields.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

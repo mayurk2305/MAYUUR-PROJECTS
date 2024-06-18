@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College List</title>
+     {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'CARRIER/college_list.css' %}">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+             <ul>
+             <li><a href="{% url 'welcome_dashboard' %}">Home</a></li>
+                <li><a href="{% url 'ebook_list' %}">Ebooks</a></li>
+                <li><a href="{% url 'college_list' %}">College List</a></li>
+                <li><a href="{% url 'aptitude_test' %}">Aptitude Test</a></li>
+                <li><a href="{% url 'login' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table class="collegelist-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Standard</th>
+                    <th>Cutoff</th>
+                    <th>Location</th>
+                    <!-- Add more columns as needed -->
+                </tr>
+            </thead>
+            <tbody>
+                {% for college in colleges %}
+                    <tr>
+                        <td>{{ college.name }}</td>
+                        <td>{{ college.std }}</td>
+                        <td>{{ college.cuttoff }}</td>
+                        <td>{{ college.location }}</td>
+                        <!-- Add more columns as needed -->
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
